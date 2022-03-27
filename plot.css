@@ -1,0 +1,55 @@
+body { 
+    background-color: grey;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1.plot {
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    margin-top: 0;
+    margin-bottom: -6px;
+    padding: 10px 10px;
+}
+
+h1.plot:hover{
+    color: white;
+    background-color: rgb(74, 204, 255);
+
+
+}
+p.plot {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+
+.container-plot {
+    display: flex;
+    width: 80%;
+
+    margin: 10px auto;
+    padding: 10px 0px;
+
+}
+
+.para{
+    margin: auto;
+    width: 80%;
+}
+
+.section-plot:hover{
+    background-color: rgb(41, 39, 39);
+    margin-bottom: 10px;
+    padding: 10px 0px;
+}
+
+strong{ color: rgb(149, 205, 250);
+
+}
+
+video{
+    border: 10px solid rgb(22, 22, 22);
+    outline: 10px inset rgb(255, 255, 255);
+    border-radius: 15px;
+}
